@@ -9,7 +9,7 @@ build:
 	mvn clean install
 	cp config.cfg docker
 	cp target/$(NAME)-*-jar-with-dependencies.jar docker
-	docker build -t $(NAME):$(VERSION) --no-cache --rm docker
+	docker build -t cr.loongnix.cn/library/zkui:2.0 --no-cache --rm docker
 	rm docker/$(NAME)-*.jar
 	rm docker/config.cfg
 
