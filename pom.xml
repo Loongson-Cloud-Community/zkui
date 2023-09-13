@@ -10,6 +10,25 @@
     <name>zkui</name>
     <url>http://maven.apache.org</url>
 
+    <repositories>
+    <repository>
+      <id>loongson</id>
+      <name>Loongson Maven</name>
+      <url>https://maven.loongnix.cn/loongarchabi1/maven/</url>
+      <releases><enabled>true</enabled></releases>
+      <snapshots><enabled>true</enabled></snapshots>
+    </repository>
+    </repositories>
+    <pluginRepositories>
+    <pluginRepository>
+      <id>loongson</id>
+      <name>Loongson Maven</name>
+      <url>https://maven.loongnix.cn/loongarchabi1/maven/</url>
+      <releases><enabled>true</enabled></releases>
+      <snapshots><enabled>true</enabled></snapshots>
+    </pluginRepository>
+    </pluginRepositories>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jetty.version>9.4.26.v20200117</jetty.version>

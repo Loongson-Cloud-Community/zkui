@@ -1,6 +1,6 @@
-FROM java:8
+FROM cr.loongnix.cn/library/openjdk:8-buster
 
-MAINTAINER Miguel Garcia Puyol <miguelpuyol@gmail.com>
+MAINTAINER Zewei Yang <yangzewei@loongson.cn>
 
 WORKDIR /var/app
 
